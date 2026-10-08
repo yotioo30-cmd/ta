@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>PANGLIMA AI</title>
+<link rel="stylesheet" href="ai.css">
+</head>
+<body>
+
+<div id="ball">⚡</div>
+
+<div id="panel">
+  <div class="header">
+    <b>⚡ PANGLIMA AI</b>
+    <span id="close">✕</span>
+  </div>
+
+  <div class="content">
+    <input id="apiKey" type="password" placeholder="API Key">
+
+    <input id="baseUrl"
+      value="https://openrouter.ai/api/v1"
+      placeholder="Base URL">
+
+    <input id="model"
+      value="deepseek/deepseek-chat-v3.1:free"
+      placeholder="Model">
+
+    <button id="save">💾 Simpan API</button>
+
+    <textarea id="questions"
+      placeholder="Masukkan soal..."></textarea>
+
+    <button id="one">⚡ KERJAKAN SOAL 1</button>
+    <button id="all">🚀 KERJAKAN SEMUA</button>
+    <button id="clear">🗑️ Bersihkan</button>
+
+    <div id="result">PANGLIMA AI siap.</div>
+  </div>
+</div>
+
+<script src="ai.js"></script>
+</body>
+</html>
